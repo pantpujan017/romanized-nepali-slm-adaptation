@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper below."
+title: "Adapting Small Language Models to Romanized Nepali: code and results"
+authors:
+  - family-names: Pant
+    given-names: Pujan
+    email: pantpujan017@gmail.com
+    affiliation: "Herald College Kathmandu, University of Wolverhampton"
+  - family-names: Newpane
+    given-names: Sagar
+    affiliation: "Herald College Kathmandu, University of Wolverhampton"
+  - family-names: Sitaula
+    given-names: Hari
+    affiliation: "Montana Technological University"
+  - family-names: Sakhakarmy
+    given-names: Manish
+    email: sakhakarmym@gmail.com
+    affiliation: "ASI Industrial"
+license: MIT
+repository-code: "https://github.com/pantpujan017/romanized-nepali-slm-adaptation"
+keywords: [Romanized Nepali, transliteration, small language models, QLoRA, tokenizer fertility, bits per byte]
+preferred-citation:
+  type: article
+  title: "Adapting Small Language Models to Romanized Nepali: Tokenizer Fertility, Reference Likelihood and Generation Metrics"
+  authors:
+    - family-names: Pant
+      given-names: Pujan
+    - family-names: Newpane
+      given-names: Sagar
+    - family-names: Sitaula
+      given-names: Hari
+    - family-names: Sakhakarmy
+      given-names: Manish
+  year: 2026
+  journal: "arXiv preprint"
+  notes: "Under review at ACM Transactions on Asian and Low-Resource Language Information Processing. Add the arXiv identifier on release."

@@ -1,0 +1,15 @@
+{
+ "tag": "zs_qwen_bare",
+ "gpu": 0,
+ "extra_env": {},
+ "overrides": {
+  "MODE": "zeroshot",
+  "MODEL_ID": "Qwen/Qwen2.5-3B",
+  "DATA_FILE": "/kaggle/input/<dataset>/dataset_corrected/test.jsonl",
+  "OUT_DIR": "/kaggle/working/zs_qwen_bare",
+  "N_ITEMS": null
+ },
+ "pristine_sha256": "33e10eac80479a95866cfc9d32dbe3ebf09ced98c2628807493ed45927de459c",
+ "patched_sha256": "618c89fbb809e6c6eaf143b7edf21f2073ec48dd2367bef8d696762641a8e5a0",
+ "started_utc": "2026-11-06 02:39:01"
+}

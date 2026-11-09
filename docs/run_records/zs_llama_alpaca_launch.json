@@ -1,0 +1,15 @@
+{
+ "tag": "zs_llama_alpaca",
+ "gpu": 0,
+ "extra_env": {},
+ "overrides": {
+  "MODE": "zeroshot_alpaca",
+  "MODEL_ID": "meta-llama/Llama-3.2-3B",
+  "DATA_FILE": "/kaggle/input/<dataset>/dataset_corrected/test.jsonl",
+  "OUT_DIR": "/kaggle/working/zs_llama_alpaca",
+  "N_ITEMS": null
+ },
+ "pristine_sha256": "33e10eac80479a95866cfc9d32dbe3ebf09ced98c2628807493ed45927de459c",
+ "patched_sha256": "11191d0caff9202528e51ff08224da0e5c76794261c77c8ba511f403ce201bc9",
+ "started_utc": "2026-11-07 01:25:20"
+}

@@ -1,0 +1,15 @@
+{
+ "tag": "zs_llama_bare",
+ "gpu": 0,
+ "extra_env": {},
+ "overrides": {
+  "MODE": "zeroshot",
+  "MODEL_ID": "meta-llama/Llama-3.2-3B",
+  "DATA_FILE": "/kaggle/input/<dataset>/dataset_corrected/test.jsonl",
+  "OUT_DIR": "/kaggle/working/zs_llama_bare",
+  "N_ITEMS": null
+ },
+ "pristine_sha256": "33e10eac80479a95866cfc9d32dbe3ebf09ced98c2628807493ed45927de459c",
+ "patched_sha256": "c8a28578404b2b9cb6f2fd2e0693a47999b70402f46af1f256a30a0ff32ef7bb",
+ "started_utc": "2026-11-06 12:51:30"
+}

@@ -1,0 +1,60 @@
+{
+  "metrics_reconstructed_from_saved_outputs": true,
+  "generation_reexecuted": false,
+  "nll_recomputed": false,
+  "nll_source": "nll_nats, resp_tokens, resp_bytes fields in outputs.jsonl",
+  "generation_source": "/kaggle/working/zs_llama_bare/outputs.jsonl",
+  "bert_score_items_source": "/kaggle/working/zs_llama_bare/bertscore_items_recovered.jsonl",
+  "bert_score_compatibility": {
+    "bert_score_version": "0.3.13",
+    "transformers_version": "5.17.0",
+    "model_type": "bert-base-multilingual-cased",
+    "rescale_with_baseline": false,
+    "empty_sentence_encoding": "[CLS], [SEP] token IDs",
+    "empty_sentence_compatibility_patch": true,
+    "nonempty_sentence_encoding": "Original bert_score.utils.sent_encode",
+    "device": "cuda:0",
+    "batch_size": 64
+  },
+  "bootstrap": {
+    "resamples": 200,
+    "python_random_seed": 0,
+    "interval": "percentile 2.5th and 97.5th percentiles",
+    "rng_reinitialized_for_each_group": true
+  },
+  "tokenizer_audit": {
+    "performed": false,
+    "reason": "--skip-tokenizer-audit supplied"
+  },
+  "empty_generation_count": 9,
+  "empty_generation_ids": [
+    61,
+    95,
+    512,
+    678,
+    699,
+    728,
+    757,
+    783,
+    850
+  ],
+  "empty_generation_bertscore_policy": "Retained in the primary denominator; empty hypotheses score 0.0.",
+  "generation_script_sha256": "c8a28578404b2b9cb6f2fd2e0693a47999b70402f46af1f256a30a0ff32ef7bb",
+  "pristine_generation_script_sha256": "33e10eac80479a95866cfc9d32dbe3ebf09ced98c2628807493ed45927de459c",
+  "recovery_script_sha256": "ba4a20c56cb5354096556eb1f18caaf5bdb7c1559f908f6852f3dadf5722897a",
+  "launch_record": {
+    "tag": "zs_llama_bare",
+    "gpu": 0,
+    "extra_env": {},
+    "overrides": {
+      "MODE": "zeroshot",
+      "MODEL_ID": "meta-llama/Llama-3.2-3B",
+      "DATA_FILE": "/kaggle/input/<dataset>/dataset_corrected/test.jsonl",
+      "OUT_DIR": "/kaggle/working/zs_llama_bare",
+      "N_ITEMS": null
+    },
+    "pristine_sha256": "33e10eac80479a95866cfc9d32dbe3ebf09ced98c2628807493ed45927de459c",
+    "patched_sha256": "c8a28578404b2b9cb6f2fd2e0693a47999b70402f46af1f256a30a0ff32ef7bb",
+    "started_utc": "2026-11-06 08:02:48"
+  }
+}

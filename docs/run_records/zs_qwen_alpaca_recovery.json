@@ -1,0 +1,39 @@
+{
+  "metrics_reconstructed_from_saved_outputs": true,
+  "generation_reexecuted": false,
+  "nll_recomputed": false,
+  "nll_source": "nll_nats, resp_tokens, resp_bytes fields in outputs.jsonl",
+  "generation_source": "/kaggle/working/eval/outputs.jsonl",
+  "bert_score_items_source": "/kaggle/working/eval/bertscore_items_recovered.jsonl",
+  "bert_score_compatibility": {
+    "bert_score_version": "0.3.13",
+    "transformers_version": "5.17.0",
+    "model_type": "bert-base-multilingual-cased",
+    "rescale_with_baseline": false,
+    "empty_sentence_encoding": "[CLS], [SEP] token IDs",
+    "empty_sentence_compatibility_patch": true,
+    "nonempty_sentence_encoding": "Original bert_score.utils.sent_encode",
+    "device": "cuda:0",
+    "batch_size": 64
+  },
+  "bootstrap": {
+    "resamples": 200,
+    "python_random_seed": 0,
+    "interval": "percentile 2.5th and 97.5th percentiles",
+    "rng_reinitialized_for_each_group": true
+  },
+  "tokenizer_audit": {
+    "performed": true,
+    "tokenizer_source": "Qwen/Qwen2.5-3B",
+    "prompt_length_limit": 512,
+    "nll_combined_prompt_response_cap": 1000,
+    "note": "Recomputed from the tokenizer loaded by AutoTokenizer. For strict byte-for-byte replication, use the same tokenizer files/revision used by the original evaluation run."
+  },
+  "empty_generation_count": 0,
+  "empty_generation_ids": [],
+  "empty_generation_bertscore_policy": "Retained in the primary denominator; empty hypotheses score 0.0.",
+  "generation_script_sha256": null,
+  "pristine_generation_script_sha256": null,
+  "recovery_script_sha256": "ba4a20c56cb5354096556eb1f18caaf5bdb7c1559f908f6852f3dadf5722897a",
+  "launch_record": null
+}
