@@ -1,0 +1,248 @@
+{
+  "token_limit": 512,
+  "tokenization_method": "Canonical Alpaca prompt construction; response appended with EOS; tokenized without truncation, with add_special_tokens=True. Lengths are measured before the training-time 512-token truncation.",
+  "packages": {
+    "transformers": "5.16.1",
+    "tokenizers": "0.23.1",
+    "huggingface_hub": "1.33.0"
+  },
+  "dataset_hashes": {
+    "train": "9ed86da7f1ff82f6f931ff7db817111f6e3b0db4d5c7cdd2265f653d55229f3f",
+    "validation": "3f7f685479b147a5b8f3826cc91408d326a84e70472810cf841a50aacc235485",
+    "test": "d656353e9ac233d73a81e9b0cc997c3ee8b4a66dcc96169a48150b7275254694"
+  },
+  "artifact_counts": {
+    "train": {
+      "rows": 9000,
+      "type_counts": {
+        "A": 4500,
+        "B": 4500
+      },
+      "placeholder_inputs": 114,
+      "rows_with_U+200B": 113
+    },
+    "validation": {
+      "rows": 500,
+      "type_counts": {
+        "B": 250,
+        "A": 250
+      },
+      "placeholder_inputs": 5,
+      "rows_with_U+200B": 11
+    },
+    "test": {
+      "rows": 1000,
+      "type_counts": {
+        "A": 500,
+        "B": 500
+      },
+      "placeholder_inputs": 14,
+      "rows_with_U+200B": 12
+    }
+  },
+  "tokenizers": {
+    "Qwen/Qwen2.5-3B": {
+      "revision": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+      "tokenizer_class": "Qwen2Tokenizer",
+      "is_fast": true,
+      "vocab_size": 151643,
+      "len_tokenizer": 151665,
+      "eos_token": "<|endoftext|>",
+      "splits": {
+        "train": {
+          "n": 9000,
+          "over_limit": 178,
+          "share": 0.019777777777777776,
+          "max_tokens": 2021,
+          "p95_tokens": 397,
+          "by_type": {
+            "A": {
+              "n": 4500,
+              "over_limit": 85,
+              "share": 0.01888888888888889
+            },
+            "B": {
+              "n": 4500,
+              "over_limit": 93,
+              "share": 0.020666666666666667
+            }
+          }
+        },
+        "validation": {
+          "n": 500,
+          "over_limit": 6,
+          "share": 0.012,
+          "max_tokens": 638,
+          "p95_tokens": 392,
+          "by_type": {
+            "A": {
+              "n": 250,
+              "over_limit": 2,
+              "share": 0.008
+            },
+            "B": {
+              "n": 250,
+              "over_limit": 4,
+              "share": 0.016
+            }
+          }
+        },
+        "test": {
+          "n": 1000,
+          "over_limit": 19,
+          "share": 0.019,
+          "max_tokens": 1097,
+          "p95_tokens": 399,
+          "by_type": {
+            "A": {
+              "n": 500,
+              "over_limit": 10,
+              "share": 0.02
+            },
+            "B": {
+              "n": 500,
+              "over_limit": 9,
+              "share": 0.018
+            }
+          }
+        }
+      }
+    },
+    "meta-llama/Llama-3.2-3B": {
+      "revision": "13afe5124825b4f3751f836b40dafda64c1ed062",
+      "tokenizer_class": "TokenizersBackend",
+      "is_fast": true,
+      "vocab_size": 128000,
+      "len_tokenizer": 128256,
+      "eos_token": "<|end_of_text|>",
+      "splits": {
+        "train": {
+          "n": 9000,
+          "over_limit": 164,
+          "share": 0.018222222222222223,
+          "max_tokens": 1912,
+          "p95_tokens": 391,
+          "by_type": {
+            "A": {
+              "n": 4500,
+              "over_limit": 80,
+              "share": 0.017777777777777778
+            },
+            "B": {
+              "n": 4500,
+              "over_limit": 84,
+              "share": 0.018666666666666668
+            }
+          }
+        },
+        "validation": {
+          "n": 500,
+          "over_limit": 6,
+          "share": 0.012,
+          "max_tokens": 633,
+          "p95_tokens": 391,
+          "by_type": {
+            "A": {
+              "n": 250,
+              "over_limit": 2,
+              "share": 0.008
+            },
+            "B": {
+              "n": 250,
+              "over_limit": 4,
+              "share": 0.016
+            }
+          }
+        },
+        "test": {
+          "n": 1000,
+          "over_limit": 17,
+          "share": 0.017,
+          "max_tokens": 1096,
+          "p95_tokens": 395,
+          "by_type": {
+            "A": {
+              "n": 500,
+              "over_limit": 9,
+              "share": 0.018
+            },
+            "B": {
+              "n": 500,
+              "over_limit": 8,
+              "share": 0.016
+            }
+          }
+        }
+      }
+    },
+    "google/gemma-2-2b": {
+      "revision": "c5ebcd40d208330abc697524c919956e692655cf",
+      "tokenizer_class": "GemmaTokenizer",
+      "is_fast": true,
+      "vocab_size": 256000,
+      "len_tokenizer": 256000,
+      "eos_token": "<eos>",
+      "splits": {
+        "train": {
+          "n": 9000,
+          "over_limit": 127,
+          "share": 0.01411111111111111,
+          "max_tokens": 1884,
+          "p95_tokens": 366,
+          "by_type": {
+            "A": {
+              "n": 4500,
+              "over_limit": 62,
+              "share": 0.013777777777777778
+            },
+            "B": {
+              "n": 4500,
+              "over_limit": 65,
+              "share": 0.014444444444444444
+            }
+          }
+        },
+        "validation": {
+          "n": 500,
+          "over_limit": 5,
+          "share": 0.01,
+          "max_tokens": 605,
+          "p95_tokens": 366,
+          "by_type": {
+            "A": {
+              "n": 250,
+              "over_limit": 2,
+              "share": 0.008
+            },
+            "B": {
+              "n": 250,
+              "over_limit": 3,
+              "share": 0.012
+            }
+          }
+        },
+        "test": {
+          "n": 1000,
+          "over_limit": 14,
+          "share": 0.014,
+          "max_tokens": 949,
+          "p95_tokens": 368,
+          "by_type": {
+            "A": {
+              "n": 500,
+              "over_limit": 8,
+              "share": 0.016
+            },
+            "B": {
+              "n": 500,
+              "over_limit": 6,
+              "share": 0.012
+            }
+          }
+        }
+      }
+    }
+  },
+  "fertility_script_dataset_sha256": "d656353e9ac233d73a81e9b0cc997c3ee8b4a66dcc96169a48150b7275254694",
+  "script_sha256": "3938c8a4aad15de89de61cc7b1257478f56dc80a7a34fd861d2cc4955d67fbeb"
+}

@@ -1,0 +1,44 @@
+{
+ "sd_ci_multiplier": [
+  0.521,
+  6.285
+ ],
+ "parameters": {
+  "Qwen2.5-3B": {
+   "total": 3085938688,
+   "non_embedding": 2774773760,
+   "embedding": 311164928,
+   "embedding_share": 0.101,
+   "lora_r32": 59867136,
+   "lora_matches_reported": true,
+   "lora_share_of_total": 0.0194
+  },
+  "Llama-3.2-3B": {
+   "total": 3212749824,
+   "non_embedding": 2818747392,
+   "embedding": 394002432,
+   "embedding_share": 0.123,
+   "lora_r32": 48627712,
+   "lora_matches_reported": true,
+   "lora_share_of_total": 0.0151
+  },
+  "Gemma-2-2B": {
+   "total": 2614636800,
+   "non_embedding": 2024517888,
+   "embedding": 590118912,
+   "embedding_share": 0.226,
+   "lora_r32": 41533440,
+   "lora_matches_reported": true,
+   "lora_share_of_total": 0.0159
+  },
+  "Llama-3.1-8B": {
+   "total": 8030261248,
+   "non_embedding": 6979588096,
+   "embedding": 1050673152,
+   "embedding_share": 0.131,
+   "lora_r32": 83886080,
+   "lora_matches_reported": true,
+   "lora_share_of_total": 0.0104
+  }
+ }
+}

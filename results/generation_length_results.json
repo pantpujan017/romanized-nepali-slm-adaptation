@@ -1,0 +1,97 @@
+{
+ "ft_gemma_s42": {
+  "gens_ge_250_tokens": 29,
+  "mean_gen_tokens": 86.005,
+  "mean_ref_tokens": 111.846
+ },
+ "ft_gemma_s43": {
+  "gens_ge_250_tokens": 38,
+  "mean_gen_tokens": 84.969,
+  "mean_ref_tokens": 111.846
+ },
+ "ft_gemma_s44": {
+  "gens_ge_250_tokens": 44,
+  "mean_gen_tokens": 90.325,
+  "mean_ref_tokens": 111.846
+ },
+ "ft_llama8b_s42": {
+  "gens_ge_250_tokens": 61,
+  "mean_gen_tokens": 92.497,
+  "mean_ref_tokens": 122.508
+ },
+ "ft_llama8b_s43": {
+  "gens_ge_250_tokens": 65,
+  "mean_gen_tokens": 93.045,
+  "mean_ref_tokens": 122.508
+ },
+ "ft_llama8b_s44": {
+  "gens_ge_250_tokens": 72,
+  "mean_gen_tokens": 99.803,
+  "mean_ref_tokens": 122.508
+ },
+ "ft_llama_s42": {
+  "gens_ge_250_tokens": 75,
+  "mean_gen_tokens": 96.108,
+  "mean_ref_tokens": 122.508
+ },
+ "ft_llama_s43": {
+  "gens_ge_250_tokens": 75,
+  "mean_gen_tokens": 100.736,
+  "mean_ref_tokens": 122.508
+ },
+ "ft_llama_s44": {
+  "gens_ge_250_tokens": 61,
+  "mean_gen_tokens": 93.284,
+  "mean_ref_tokens": 122.508
+ },
+ "ft_qwen_s42": {
+  "gens_ge_250_tokens": 58,
+  "mean_gen_tokens": 92.974,
+  "mean_ref_tokens": 124.526
+ },
+ "ft_qwen_s43": {
+  "gens_ge_250_tokens": 82,
+  "mean_gen_tokens": 104.454,
+  "mean_ref_tokens": 124.526
+ },
+ "ft_qwen_s44": {
+  "gens_ge_250_tokens": 61,
+  "mean_gen_tokens": 97.881,
+  "mean_ref_tokens": 124.526
+ },
+ "zs_gemma_alpaca": {
+  "gens_ge_250_tokens": 60,
+  "mean_gen_tokens": 80.551,
+  "mean_ref_tokens": 111.846
+ },
+ "zs_gemma_bare": {
+  "gens_ge_250_tokens": 387,
+  "mean_gen_tokens": 177.31,
+  "mean_ref_tokens": 111.846
+ },
+ "zs_llama8b_alpaca": {
+  "gens_ge_250_tokens": 84,
+  "mean_gen_tokens": 60.608,
+  "mean_ref_tokens": 122.508
+ },
+ "zs_llama_alpaca": {
+  "gens_ge_250_tokens": 186,
+  "mean_gen_tokens": 102.437,
+  "mean_ref_tokens": 122.508
+ },
+ "zs_llama_bare": {
+  "gens_ge_250_tokens": 743,
+  "mean_gen_tokens": 214.462,
+  "mean_ref_tokens": 122.532
+ },
+ "zs_qwen_alpaca": {
+  "gens_ge_250_tokens": 252,
+  "mean_gen_tokens": 147.532,
+  "mean_ref_tokens": 124.526
+ },
+ "zs_qwen_bare": {
+  "gens_ge_250_tokens": 490,
+  "mean_gen_tokens": 169.911,
+  "mean_ref_tokens": 124.55
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "type_a_instructions": 500,
+ "alpaca_instructions": 52002,
+ "share_identical": 0.298,
+ "share_similarity_ge_80": 0.922,
+ "share_similarity_ge_60": 1.0,
+ "median_similarity": 95.0975680092281,
+ "min_similarity": 60.75949367088608
+}

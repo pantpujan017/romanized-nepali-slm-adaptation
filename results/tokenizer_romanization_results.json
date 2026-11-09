@@ -1,0 +1,539 @@
+{
+ "corpus": {
+  "sentences": 1233,
+  "cv_sentences": 1146,
+  "udhr_lines": 87,
+  "devanagari_words": 8840
+ },
+ "results": {
+  "R1": {
+   "Gemma-2": {
+    "fertility": 2.493291584738572,
+    "ci": [
+     2.4607639663091696,
+     2.5288250404659767
+    ],
+    "pooled": 2.5217194570135746,
+    "tokens_per_char": 0.39655601807378943,
+    "single_token_share": 0.25475113122171944,
+    "three_plus_share": 0.4607466063348416,
+    "type_fertility": 3.2823957458718165,
+    "n_sentences": 1233,
+    "n_words": 8840,
+    "n_types": 3573
+   },
+   "Llama-3": {
+    "fertility": 2.7119856750720173,
+    "ci": [
+     2.6768143212354314,
+     2.7474966926610582
+    ],
+    "pooled": 2.765497737556561,
+    "tokens_per_char": 0.43489166399829227,
+    "single_token_share": 0.20180995475113123,
+    "three_plus_share": 0.530316742081448,
+    "type_fertility": 3.5815841029946824,
+    "n_sentences": 1233,
+    "n_words": 8840,
+    "n_types": 3573
+   },
+   "Qwen2.5": {
+    "fertility": 2.7334950074831306,
+    "ci": [
+     2.697823933912253,
+     2.772396972847858
+    ],
+    "pooled": 2.7799773755656108,
+    "tokens_per_char": 0.43716867684206784,
+    "single_token_share": 0.20147058823529412,
+    "three_plus_share": 0.5367647058823529,
+    "type_fertility": 3.6109711726840192,
+    "n_sentences": 1233,
+    "n_words": 8840,
+    "n_types": 3573
+   },
+   "Mistral-v0.1": {
+    "fertility": 3.053251609510853,
+    "ci": [
+     3.0112421909855636,
+     3.0934890604691403
+    ],
+    "pooled": 3.0820135746606336,
+    "tokens_per_char": 0.4846657416301989,
+    "single_token_share": 0.17794117647058824,
+    "three_plus_share": 0.6074660633484162,
+    "type_fertility": 4.021270640917996,
+    "n_sentences": 1233,
+    "n_words": 8840,
+    "n_types": 3573
+   }
+  },
+  "R2": {
+   "Gemma-2": {
+    "fertility": 2.1348248239318983,
+    "ci": [
+     2.106847273240166,
+     2.1653000826623034
+    ],
+    "pooled": 2.1528280542986424,
+    "tokens_per_char": 0.33854555804603836,
+    "single_token_share": 0.3088235294117647,
+    "three_plus_share": 0.316289592760181,
+    "type_fertility": 2.7856106759501014,
+    "n_sentences": 1233,
+    "n_words": 8840,
+    "n_types": 3447
+   },
+   "Llama-3": {
+    "fertility": 2.3580343413348497,
+    "ci": [
+     2.3315646332173876,
+     2.3848167193172185
+    ],
+    "pooled": 2.39841628959276,
+    "tokens_per_char": 0.3771658305760131,
+    "single_token_share": 0.223868778280543,
+    "three_plus_share": 0.39660633484162894,
+    "type_fertility": 3.074847693646649,
+    "n_sentences": 1233,
+    "n_words": 8840,
+    "n_types": 3447
+   },
+   "Qwen2.5": {
+    "fertility": 2.3867263068408064,
+    "ci": [
+     2.3585823665869787,
+     2.4144733660395494
+    ],
+    "pooled": 2.420022624434389,
+    "tokens_per_char": 0.38056356067883446,
+    "single_token_share": 0.22171945701357465,
+    "three_plus_share": 0.4088235294117647,
+    "type_fertility": 3.114302291847984,
+    "n_sentences": 1233,
+    "n_words": 8840,
+    "n_types": 3447
+   },
+   "Mistral-v0.1": {
+    "fertility": 2.6483400873371314,
+    "ci": [
+     2.6120358807956143,
+     2.683465367812918
+    ],
+    "pooled": 2.669570135746606,
+    "tokens_per_char": 0.4198064539082791,
+    "single_token_share": 0.19004524886877827,
+    "three_plus_share": 0.4968325791855204,
+    "type_fertility": 3.4470554105018856,
+    "n_sentences": 1233,
+    "n_words": 8840,
+    "n_types": 3447
+   }
+  },
+  "R3": {
+   "Gemma-2": {
+    "fertility": 2.0685001064278636,
+    "ci": [
+     2.0400920966167013,
+     2.099855086517176
+    ],
+    "pooled": 2.0829185520361992,
+    "tokens_per_char": 0.34205833178524986,
+    "single_token_share": 0.3410633484162896,
+    "three_plus_share": 0.29366515837104074,
+    "type_fertility": 2.70707656612529,
+    "n_sentences": 1233,
+    "n_words": 8840,
+    "n_types": 3448
+   },
+   "Llama-3": {
+    "fertility": 2.264345535850666,
+    "ci": [
+     2.236915281825508,
+     2.2928575442360044
+    ],
+    "pooled": 2.300678733031674,
+    "tokens_per_char": 0.3778190600037154,
+    "single_token_share": 0.2740950226244344,
+    "three_plus_share": 0.36459276018099546,
+    "type_fertility": 2.9628770301624128,
+    "n_sentences": 1233,
+    "n_words": 8840,
+    "n_types": 3448
+   },
+   "Qwen2.5": {
+    "fertility": 2.2939920264959506,
+    "ci": [
+     2.264911535714354,
+     2.3247648801413012
+    ],
+    "pooled": 2.3244343891402717,
+    "tokens_per_char": 0.3817202303548207,
+    "single_token_share": 0.27047511312217193,
+    "three_plus_share": 0.377262443438914,
+    "type_fertility": 3.004060324825986,
+    "n_sentences": 1233,
+    "n_words": 8840,
+    "n_types": 3448
+   },
+   "Mistral-v0.1": {
+    "fertility": 2.536461733968725,
+    "ci": [
+     2.5041698416060223,
+     2.571810633510545
+    ],
+    "pooled": 2.5554298642533935,
+    "tokens_per_char": 0.4196544677689021,
+    "single_token_share": 0.2342760180995475,
+    "three_plus_share": 0.46108597285067876,
+    "type_fertility": 3.327726218097448,
+    "n_sentences": 1233,
+    "n_words": 8840,
+    "n_types": 3448
+   }
+  }
+ },
+ "ordering_share": {
+  "R1": 1.0,
+  "R2": 1.0,
+  "R3": 1.0
+ },
+ "lowercasing": {
+  "running_words": 8102,
+  "share_words_with_uppercase_itrans": 0.5882498148605283,
+  "r1_types": 3344,
+  "r2_types": 3216,
+  "share_r2_types_merging_distinct_r1_types": 0.03793532338308458,
+  "share_running_words_in_merged_types": 0.13786719328560848,
+  "share_words_ending_in_inherent_vowel": 0.3615156751419403,
+  "share_words_changed_by_R3": 0.2942483337447544,
+  "examples_merged": [
+   [
+    "pani",
+    [
+     "pAnI",
+     "panI",
+     "pani"
+    ]
+   ],
+   [
+    "bhai",
+    [
+     "bhAI",
+     "bhAi",
+     "bhaI"
+    ]
+   ],
+   [
+    "badhi",
+    [
+     "bADhI",
+     "baDhI",
+     "baDhi"
+    ]
+   ],
+   [
+    "mana",
+    [
+     "mAnA",
+     "mAna",
+     "mana"
+    ]
+   ],
+   [
+    "tina",
+    [
+     "Tina",
+     "tIna",
+     "tina"
+    ]
+   ],
+   [
+    "bhari",
+    [
+     "bhArI",
+     "bharI",
+     "bhari"
+    ]
+   ],
+   [
+    "shitala",
+    [
+     "shItala",
+     "shitala"
+    ]
+   ],
+   [
+    "khali",
+    [
+     "khAlI",
+     "khAli"
+    ]
+   ],
+   [
+    "ramaila",
+    [
+     "ramAIlA",
+     "ramAilA"
+    ]
+   ],
+   [
+    "dinaharu",
+    [
+     "dinaharU",
+     "dinaharu"
+    ]
+   ],
+   [
+    "khana",
+    [
+     "khAnA",
+     "khAna"
+    ]
+   ],
+   [
+    "chana",
+    [
+     "ChAnA",
+     "Chana"
+    ]
+   ]
+  ]
+ },
+ "merged_unit_groups": [
+  [
+   "a",
+   [
+    [
+     "अ",
+     "a"
+    ],
+    [
+     "आ",
+     "A"
+    ]
+   ]
+  ],
+  [
+   "ch",
+   [
+    [
+     "च्",
+     "ch"
+    ],
+    [
+     "छ्",
+     "Ch"
+    ]
+   ]
+  ],
+  [
+   "d",
+   [
+    [
+     "ड्",
+     "D"
+    ],
+    [
+     "द्",
+     "d"
+    ]
+   ]
+  ],
+  [
+   "dh",
+   [
+    [
+     "ढ्",
+     "Dh"
+    ],
+    [
+     "ध्",
+     "dh"
+    ]
+   ]
+  ],
+  [
+   "g",
+   [
+    [
+     "ग्",
+     "g"
+    ],
+    [
+     "ग़्",
+     "G"
+    ]
+   ]
+  ],
+  [
+   "i",
+   [
+    [
+     "इ",
+     "i"
+    ],
+    [
+     "ई",
+     "I"
+    ]
+   ]
+  ],
+  [
+   "k",
+   [
+    [
+     "क्",
+     "k"
+    ],
+    [
+     "ख़्",
+     "K"
+    ]
+   ]
+  ],
+  [
+   "l",
+   [
+    [
+     "ल्",
+     "l"
+    ],
+    [
+     "ळ्",
+     "L"
+    ]
+   ]
+  ],
+  [
+   "n",
+   [
+    [
+     "ण्",
+     "N"
+    ],
+    [
+     "न्",
+     "n"
+    ]
+   ]
+  ],
+  [
+   "r",
+   [
+    [
+     "र्",
+     "r"
+    ],
+    [
+     "ऱ्",
+     "R"
+    ]
+   ]
+  ],
+  [
+   "sh",
+   [
+    [
+     "श्",
+     "sh"
+    ],
+    [
+     "ष्",
+     "Sh"
+    ]
+   ]
+  ],
+  [
+   "t",
+   [
+    [
+     "ट्",
+     "T"
+    ],
+    [
+     "त्",
+     "t"
+    ]
+   ]
+  ],
+  [
+   "th",
+   [
+    [
+     "ठ्",
+     "Th"
+    ],
+    [
+     "थ्",
+     "th"
+    ]
+   ]
+  ],
+  [
+   "u",
+   [
+    [
+     "उ",
+     "u"
+    ],
+    [
+     "ऊ",
+     "U"
+    ]
+   ]
+  ],
+  [
+   "y",
+   [
+    [
+     "य्",
+     "y"
+    ],
+    [
+     "य़्",
+     "Y"
+    ]
+   ]
+  ],
+  [
+   "~n",
+   [
+    [
+     "ङ्",
+     "~N"
+    ],
+    [
+     "ञ्",
+     "~n"
+    ]
+   ]
+  ]
+ ],
+ "examples": [
+  {
+   "deva": "अ शीतल नै छ यहाँ त ।",
+   "R1": "a shItala nai Cha yahA.N ta |",
+   "R2": "a shitala nai cha yaha.n ta |",
+   "R3": "a shital nai cha yaha.n ta |"
+  },
+  {
+   "deva": "अखण्ड यो प्यारो हाम्रो मातृभूमि नेपाल।",
+   "R1": "akhaNDa yo pyAro hAmro mAtRRibhUmi nepAla|",
+   "R2": "akhanda yo pyaro hamro matrribhumi nepala|",
+   "R3": "akhand yo pyaro hamro matrribhumi nepal|"
+  },
+  {
+   "deva": "अचेल काठमाडौँमा सर्वत्र खाली ठाउँको चर्चा छ ।",
+   "R1": "achela kAThamADau.NmA sarvatra khAlI ThAu.Nko charchA Cha |",
+   "R2": "achela kathamadau.nma sarvatra khali thau.nko charcha cha |",
+   "R3": "achel kathamadau.nma sarvatr khali thau.nko charcha cha |"
+  },
+  {
+   "deva": "अण्डा र दाल खान लागेको ।",
+   "R1": "aNDA ra dAla khAna lAgeko |",
+   "R2": "anda ra dala khana lageko |",
+   "R3": "anda ra dal khan lageko |"
+  }
+ ]
+}

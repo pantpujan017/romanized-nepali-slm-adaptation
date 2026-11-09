@@ -1,0 +1,235 @@
+{
+ "test_file_sha256": "d656353e9ac233d73a81e9b0cc997c3ee8b4a66dcc96169a48150b7275254694",
+ "n_outputs": 1000,
+ "text_field": "output",
+ "method": "whole output encoded with add_special_tokens=False; words = whitespace split of unmodified text; chars = Unicode code points incl. whitespace",
+ "tokenizers": {
+  "llama31_8b": {
+   "repo": "meta-llama/Llama-3.1-8B",
+   "commit_sha": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+   "tokenizer_class": "TokenizersBackend",
+   "is_fast": true,
+   "vocab_size_attr": 128000,
+   "len_tokenizer": 128256,
+   "special_tokens_map": {
+    "bos_token": "<|begin_of_text|>",
+    "eos_token": "<|end_of_text|>"
+   },
+   "total_tokens": 122603
+  },
+  "qwen3_8b_base": {
+   "repo": "Qwen/Qwen3-8B-Base",
+   "commit_sha": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+   "tokenizer_class": "Qwen2Tokenizer",
+   "is_fast": true,
+   "vocab_size_attr": 151643,
+   "len_tokenizer": 151669,
+   "special_tokens_map": {
+    "eos_token": "<|endoftext|>",
+    "pad_token": "<|endoftext|>"
+   },
+   "total_tokens": 124622
+  },
+  "qwen3_8b": {
+   "repo": "Qwen/Qwen3-8B",
+   "commit_sha": "b968826d9c46dd6066d109eabc6255188de91218",
+   "tokenizer_class": "Qwen2Tokenizer",
+   "is_fast": true,
+   "vocab_size_attr": 151643,
+   "len_tokenizer": 151669,
+   "special_tokens_map": {
+    "eos_token": "<|im_end|>",
+    "pad_token": "<|endoftext|>"
+   },
+   "total_tokens": 124622
+  },
+  "mistral_7b": {
+   "repo": "mistralai/Mistral-7B-v0.1",
+   "commit_sha": "27d67f1b5f57dc0953326b2601d68371d40ea8da",
+   "tokenizer_class": "TokenizersBackend",
+   "is_fast": true,
+   "vocab_size_attr": 32000,
+   "len_tokenizer": 32000,
+   "special_tokens_map": {
+    "bos_token": "<s>",
+    "eos_token": "</s>",
+    "unk_token": "<unk>"
+   },
+   "total_tokens": 137283
+  },
+  "llama32_3b": {
+   "repo": "meta-llama/Llama-3.2-3B",
+   "commit_sha": "13afe5124825b4f3751f836b40dafda64c1ed062",
+   "tokenizer_class": "TokenizersBackend",
+   "is_fast": true,
+   "vocab_size_attr": 128000,
+   "len_tokenizer": 128256,
+   "special_tokens_map": {
+    "bos_token": "<|begin_of_text|>",
+    "eos_token": "<|end_of_text|>"
+   },
+   "total_tokens": 122603
+  },
+  "qwen25_3b": {
+   "repo": "Qwen/Qwen2.5-3B",
+   "commit_sha": "3aab1f1954e9cc14eb9509a215f9e5ca08227a9b",
+   "tokenizer_class": "Qwen2Tokenizer",
+   "is_fast": true,
+   "vocab_size_attr": 151643,
+   "len_tokenizer": 151665,
+   "special_tokens_map": {
+    "eos_token": "<|endoftext|>",
+    "pad_token": "<|endoftext|>"
+   },
+   "total_tokens": 124622
+  },
+  "gemma2_2b": {
+   "repo": "google/gemma-2-2b",
+   "commit_sha": "c5ebcd40d208330abc697524c919956e692655cf",
+   "tokenizer_class": "GemmaTokenizer",
+   "is_fast": true,
+   "vocab_size_attr": 256000,
+   "len_tokenizer": 256000,
+   "special_tokens_map": {
+    "bos_token": "<bos>",
+    "eos_token": "<eos>",
+    "unk_token": "<unk>",
+    "pad_token": "<pad>",
+    "mask_token": "<mask>"
+   },
+   "total_tokens": 111846
+  }
+ },
+ "failed": {},
+ "identity_checks": [
+  {
+   "a": "llama31_8b",
+   "b": "llama32_3b",
+   "outputs_identical": 1000,
+   "n": 1000,
+   "identical_on_all": true
+  },
+  {
+   "a": "qwen3_8b_base",
+   "b": "qwen3_8b",
+   "outputs_identical": 1000,
+   "n": 1000,
+   "identical_on_all": true
+  },
+  {
+   "a": "qwen25_3b",
+   "b": "qwen3_8b_base",
+   "outputs_identical": 1000,
+   "n": 1000,
+   "identical_on_all": true
+  }
+ ],
+ "identity_all_pairs": [
+  {
+   "a": "llama31_8b",
+   "b": "qwen3_8b_base",
+   "outputs_identical": 2
+  },
+  {
+   "a": "llama31_8b",
+   "b": "qwen3_8b",
+   "outputs_identical": 2
+  },
+  {
+   "a": "llama31_8b",
+   "b": "mistral_7b",
+   "outputs_identical": 0
+  },
+  {
+   "a": "llama31_8b",
+   "b": "llama32_3b",
+   "outputs_identical": 1000
+  },
+  {
+   "a": "llama31_8b",
+   "b": "qwen25_3b",
+   "outputs_identical": 2
+  },
+  {
+   "a": "llama31_8b",
+   "b": "gemma2_2b",
+   "outputs_identical": 0
+  },
+  {
+   "a": "qwen3_8b_base",
+   "b": "qwen3_8b",
+   "outputs_identical": 1000
+  },
+  {
+   "a": "qwen3_8b_base",
+   "b": "mistral_7b",
+   "outputs_identical": 0
+  },
+  {
+   "a": "qwen3_8b_base",
+   "b": "llama32_3b",
+   "outputs_identical": 2
+  },
+  {
+   "a": "qwen3_8b_base",
+   "b": "qwen25_3b",
+   "outputs_identical": 1000
+  },
+  {
+   "a": "qwen3_8b_base",
+   "b": "gemma2_2b",
+   "outputs_identical": 0
+  },
+  {
+   "a": "qwen3_8b",
+   "b": "mistral_7b",
+   "outputs_identical": 0
+  },
+  {
+   "a": "qwen3_8b",
+   "b": "llama32_3b",
+   "outputs_identical": 2
+  },
+  {
+   "a": "qwen3_8b",
+   "b": "qwen25_3b",
+   "outputs_identical": 1000
+  },
+  {
+   "a": "qwen3_8b",
+   "b": "gemma2_2b",
+   "outputs_identical": 0
+  },
+  {
+   "a": "mistral_7b",
+   "b": "llama32_3b",
+   "outputs_identical": 0
+  },
+  {
+   "a": "mistral_7b",
+   "b": "qwen25_3b",
+   "outputs_identical": 0
+  },
+  {
+   "a": "mistral_7b",
+   "b": "gemma2_2b",
+   "outputs_identical": 0
+  },
+  {
+   "a": "llama32_3b",
+   "b": "qwen25_3b",
+   "outputs_identical": 2
+  },
+  {
+   "a": "llama32_3b",
+   "b": "gemma2_2b",
+   "outputs_identical": 0
+  },
+  {
+   "a": "qwen25_3b",
+   "b": "gemma2_2b",
+   "outputs_identical": 0
+  }
+ ],
+ "script_sha256": "a0c856c5d7bc5fde1656786f213b515304d7c6cb2bbe07bd9ec28fa2d06ed05e"
+}
